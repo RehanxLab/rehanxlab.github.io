@@ -522,11 +522,9 @@ html {
 .about-container {
     max-width: 1000px;
     margin: 50px auto;
-
     display: grid;
-    grid-template-columns: 180px 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
-    align-items: center;
 }
 
 .about-text,
@@ -668,15 +666,7 @@ section h2 {
 
 body {
     overflow-x: hidden;
-.profile-photo {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #00ff88;
-    display: block;
-    margin: 0 auto;
-}
+
 
 
 
